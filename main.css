@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,500,600i,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.0/css/all.css');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+/*
+primary color #086754
+*/
+ .navbar-brand img{
+  max-width: 180px;
+}a{
+  text-decoration: none ;
+  color: #222;
+}
+a:hover{
+  text-decoration: none;
+  color: #222 ;
+}
+.white{
+    background:#FFF;
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    background: #fff;
+    z-index: 9998;
+}
+.white .navbar-toggler{
+    color: #222222;
+}
+.btn{
+  outline: none;
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  padding: 0.5rem 2rem;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  outline: none;
+  -webkit-transition: 0.15s linear;
+  transition: 0.15s linear;
+  text-transform: uppercase;
+
+}
+.btn-shadow{
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+.btn-primary{
+  border: 1px solid #25c16f;
+  background: #25c16f !important;
+}
+.btn-primary:hover{
+  border:1px solid #25c16f;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color:#222222 ;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color : #25c16f;
+}
+.entry-wrraper{
+  padding: 4.5rem 0 ;
+  background-image: linear-gradient(to left bottom, #086754, #007d5f, #009367, #03aa6c, #25c16f);
+}
+.tab-wrapper .nav-tabs{
+  border: 0 ;
+}
+.tab-wrapper  .nav-tabs .nav-link:focus, .nav-tabs .nav-link{
+  color: #FFFFFF ;
+}
+.tab-wrapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+  border: 0;
+}
+.tab-wrapper .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: transparent !important ;
+  color: #FAFAFA !important;
+  border: 0;
+}
+.tab-wrapper .nav-link:hover{
+    border-bottom: 2px solid #fafafa;
+}
+.tab-wrapper .nav-link.active{
+  border-bottom: 2px solid #fafafa;
+}
+.search-bar{
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: auto;
+}
+.search-bar input{
+    width:100%;
+    border: none;
+    box-shadow: 0 0 0;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    padding: 6px 10px 6px 60px;
+}
+
+.icon-search{
+  color: #25c16f;
+  font-size: 26px;
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 16px;
+}
+.wrapper{
+  padding: 4.5rem 0 ;
+}
+.card-d{
+  border: 1px solid #fafafa;
+      padding: 40px 0 60px;
+      border-radius: 5px;
+      text-align: center;
+      background-color: #ffffff;
+      margin: 96px 28px 0px 0px;
+      box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+      color: #4d4d4d;
+      transition: border .3s ease;
+}
+.card-d:hover{
+  box-shadow: none ;
+  border :1px solid #25c16f;
+}
+.card-d a{
+  text-align: center;
+  text-decoration: none ;
+  color: #222222 ;
+}
+.card-d .card-img img{
+  max-width: 50%;
+}
+.card-d .card-text{
+  margin-top: 20px;
+  padding: 10px 8px;
+}
+.card-d .card-text .text{
+  color: #888 ;
+}
+.section-heading h2 {
+   position: relative;
+   display: inline-block;
+}
+.section-heading h2:before, .section-heading h2:after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   height: 2px;
+   background: #9CC700;
+   left: 0;
+   -webkit-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   transform: translateX(-50%);
+}
+.section-heading h2:before {
+   width: 100px;
+   bottom: -10px;
+   left: 50%;
+}
+.section-heading h2:after {
+   width: 80px;
+   bottom: -20px;
+   left: 50%;
+}
+.text-sm{
+  margin-top: 2px;
+  color: #888888;
+  font-size: 14px;
+}
+.media img{
+  max-width: 42px;
+}
+.media h5{
+  font-weight: 500;
+}
+.media{
+margin-bottom: 20px;
+font-size: 18px;
+padding: 1.3rem;
+border-radius: 5px;
+background-color: #ffffff;
+box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+color: #4d4d4d;
+transition: box-shadow .3s ease, -webkit-transform .3s ease;
+transition: transform .3s ease, box-shadow .3s ease;
+transition: transform .3s ease, box-shadow .3s ease, -webkit-transform .3s ease;
+cursor: pointer;
+}
+.media:hover{
+  text-decoration: none;
+    transform: translateY(-6px);
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.1);
+}
+.mw-80{
+  max-width: 90%;
+  margin-left: 5%;
+}
+.bg-th-light{
+  background-image: linear-gradient(to bottom, #fafafa, #fbfbfb, #fcfdfc, #fefefe, #ffffff);
+}
+.pattern{
+  padding-bottom: 124px;
+  background-image: url(https://company-assets.freshworks.com/freshdesk-portal/pattern-fdesk-light.svg);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+/**Footer*/
+
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #222222;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#footer .btn {
+    line-height: 1.5rem;
+}
+
+#footer .footer-social {
+    margin-top: 1rem;
+}
+
+#footer .footer-social a {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+#footer .list-title {
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#footer ul li {
+    padding: 3px 0;
+    font-size: 15px;
+}
+
+#footer ul li a {
+    color: #999;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#footer ul li a:hover {
+    text-decoration: none;
+    color: #AAA;
+}
+
+#footer .subscribe-input,
+#footer .subscribe-button {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#footer .footer-payments {
+    margin-top: 1rem;
+    font-size: 28px;
+}
+
+#footer .footer-credits {
+    color: #FFF;
+    margin-top: 1rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid;
+    font-size: 13px;
+    border-top-color: rgba(0, 0, 0, 0.15);
+}
+
+#footer .horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footer .horizontal-list li {
+    cursor: pointer;
+    float: left;
+    height: 32px;
+    width: 32px;
+    background: #FFF;
+    color: #222;
+    margin: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#footer .horizontal-list li a {
+    align-self: center;
+    font-size: 18px;
+}
+
+.fb-color {
+    color: #29487d !important;
+}
+
+.insta-color {
+    color: #000;
+}
+
+.wa-color {
+    color: #00E676 !important;
+}
+.m-app{
+  padding: 0;
+}
+.m-app img{
+  max-width: 180px;
+  padding: 0 !important;
+}
